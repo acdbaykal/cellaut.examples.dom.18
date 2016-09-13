@@ -1,0 +1,18 @@
+.cellaut_row{
+  display: block;
+}
+
+.cellaut_cell{
+  margin: 0;
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+}
+
+.cellaut_cell--on{
+  background-color: blue;
+}
+
+.cellaut_cell--off{
+  background-color: white;
+}
