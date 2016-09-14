@@ -1,6 +1,6 @@
 {
   "name": "cellaut.examples.dom.18",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an example for the cellaut project",
   "main": "dist/index.js",
   "devDependencies": {
@@ -12,19 +12,14 @@
     "chai": "^3.5.0",
     "del": "^2.2.2",
     "eslint": "^2.4.0",
-    "eslint-plugin-mocha": "^4.3.0",
-    "estraverse": "^4.2.0",
-    "estraverse-fb": "^1.3.1",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-print": "^2.0.1",
     "gulp-spawn-mocha": "^2.2.2",
     "gulp-util": "^3.0.7",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
+    "webpack": "^1.12.2"
   },
   "dependencies": {
     "cellaut": "git+https://github.com/acdbaykal/cellaut.git",
-    "cellaut.rules": "git+https://github.com/acdbaykal/cellaut.rules.git",
     "domready": "^1.0.8"
   },
   "repository": {

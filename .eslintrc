@@ -1,7 +1,5 @@
 ---
 extends: eslint:recommended
-plugins:
-- mocha
 parserOptions:
   ecmaVersion: 6
   sourceType: module
@@ -53,9 +51,6 @@ rules:
   linebreak-style:
   - error
   - unix
-  mocha/no-global-tests: error
-  mocha/no-sibling-hooks: error
-  mocha/no-mocha-arrows: error
   object-curly-spacing:
   - warn
   - never
